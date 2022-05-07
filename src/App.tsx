@@ -1,7 +1,8 @@
 import React from "react";
+import ToggleComponent from "./1-useToggle/ToggleComponent";
 
 function App() {
-  return <div>hello</div>;
+  return <ToggleComponent />;
 }
 
 export default App;
