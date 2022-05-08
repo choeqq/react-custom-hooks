@@ -6,6 +6,7 @@ import UpdateEffectComponent from "./4-useUpdateEffect/UpdateEffectComponent";
 import ArrayComponent from "./5-useArray/ArrayComponent";
 import StateWithHistoryComponent from "./7-useStateWithHistory/StateWithHistory";
 import StorageComponent from "./8-useStorage/StorageComponent";
+import AsyncComponent from "./9-useAsync/AsyncComponent";
 
 function App() {
   // return <ToggleComponent />;
@@ -15,7 +16,8 @@ function App() {
   // return <ArrayComponent />;
   // return <PreviousComponent />;
   // return <StateWithHistoryComponent />;
-  return <StorageComponent />;
+  // return <StorageComponent />;
+  return <AsyncComponent />;
 }
 
 export default App;
