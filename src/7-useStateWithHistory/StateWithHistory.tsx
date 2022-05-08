@@ -8,14 +8,18 @@ export default function StateWithHistoryComponent() {
 
   return (
     <div>
-      <div>{count}</div>
+      <div>{count.toString()}</div>
       <div>{history.join(", ")}</div>
       <div>Pointer - {pointer}</div>
       <div>{name}</div>
-      <button onClick={() => setCount((currentCount) => currentCount * 2)}>
+      <button
+        onClick={() => setCount((currentCount: number) => currentCount * 2)}
+      >
         Double
       </button>
-      <button onClick={() => setCount((currentCount) => currentCount + 1)}>
+      <button
+        onClick={() => setCount((currentCount: number) => currentCount + 1)}
+      >
         Increment
       </button>
       <button onClick={back}>Back</button>
