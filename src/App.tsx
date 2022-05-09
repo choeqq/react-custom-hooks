@@ -1,6 +1,7 @@
 import React from "react";
 import ToggleComponent from "./1-useToggle/ToggleComponent";
 import FetchComponent from "./10-useFetch/FetchComponent";
+import ScriptComponent from "./11-useScript/ScriptComponent";
 import TimeoutComponent from "./2-useTimeout/TimeoutComponent";
 import DebounceComponent from "./3-useDebounce/DebounceComponent";
 import UpdateEffectComponent from "./4-useUpdateEffect/UpdateEffectComponent";
@@ -19,7 +20,8 @@ function App() {
   // return <StateWithHistoryComponent />;
   // return <StorageComponent />;
   // return <AsyncComponent />;
-  return <FetchComponent />;
+  // return <FetchComponent />;
+  return <ScriptComponent />;
 }
 
 export default App;

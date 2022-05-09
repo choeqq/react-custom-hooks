@@ -8,7 +8,7 @@ export default function AsyncComponent() {
         success ? resolve("Hi") : reject("Error");
       }, 1000);
     });
-  });
+  }, []);
 
   return (
     <div>
