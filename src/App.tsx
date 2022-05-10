@@ -3,6 +3,7 @@ import ToggleComponent from "./1-useToggle/ToggleComponent";
 import FetchComponent from "./10-useFetch/FetchComponent";
 import ScriptComponent from "./11-useScript/ScriptComponent";
 import DeepCompareEffectComponent from "./12-useDeepCompareEffect/DeepCompareEffectComponent";
+import EventListenerComponent from "./13-useEventListener/EventListenerComponent";
 import TimeoutComponent from "./2-useTimeout/TimeoutComponent";
 import DebounceComponent from "./3-useDebounce/DebounceComponent";
 import UpdateEffectComponent from "./4-useUpdateEffect/UpdateEffectComponent";
@@ -23,7 +24,8 @@ function App() {
   // return <AsyncComponent />;
   // return <FetchComponent />;
   // return <ScriptComponent />;
-  return <DeepCompareEffectComponent />;
+  // return <DeepCompareEffectComponent />;
+  return <EventListenerComponent />;
 }
 
 export default App;
