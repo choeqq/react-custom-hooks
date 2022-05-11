@@ -4,6 +4,7 @@ import FetchComponent from "./10-useFetch/FetchComponent";
 import ScriptComponent from "./11-useScript/ScriptComponent";
 import DeepCompareEffectComponent from "./12-useDeepCompareEffect/DeepCompareEffectComponent";
 import EventListenerComponent from "./13-useEventListener/EventListenerComponent";
+import OnScreenComponent from "./14-useOnScreen/OnScreenComponent";
 import TimeoutComponent from "./2-useTimeout/TimeoutComponent";
 import DebounceComponent from "./3-useDebounce/DebounceComponent";
 import UpdateEffectComponent from "./4-useUpdateEffect/UpdateEffectComponent";
@@ -25,7 +26,8 @@ function App() {
   // return <FetchComponent />;
   // return <ScriptComponent />;
   // return <DeepCompareEffectComponent />;
-  return <EventListenerComponent />;
+  // return <EventListenerComponent />;
+  return <OnScreenComponent />;
 }
 
 export default App;
