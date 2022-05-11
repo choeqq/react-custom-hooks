@@ -6,6 +6,7 @@ import DeepCompareEffectComponent from "./12-useDeepCompareEffect/DeepCompareEff
 import EventListenerComponent from "./13-useEventListener/EventListenerComponent";
 import OnScreenComponent from "./14-useOnScreen/OnScreenComponent";
 import WindowSizeComponent from "./15-useWindowSize/WindowSizeComponent";
+import MediaQueryComponent from "./16-useMediaQuery/MediaQueryComponent";
 import TimeoutComponent from "./2-useTimeout/TimeoutComponent";
 import DebounceComponent from "./3-useDebounce/DebounceComponent";
 import UpdateEffectComponent from "./4-useUpdateEffect/UpdateEffectComponent";
@@ -29,7 +30,8 @@ function App() {
   // return <DeepCompareEffectComponent />;
   // return <EventListenerComponent />;
   // return <OnScreenComponent />;
-  return <WindowSizeComponent />;
+  // return <WindowSizeComponent />;
+  return <MediaQueryComponent />;
 }
 
 export default App;
