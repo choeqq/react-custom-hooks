@@ -7,6 +7,7 @@ import EventListenerComponent from "./13-useEventListener/EventListenerComponent
 import OnScreenComponent from "./14-useOnScreen/OnScreenComponent";
 import WindowSizeComponent from "./15-useWindowSize/WindowSizeComponent";
 import MediaQueryComponent from "./16-useMediaQuery/MediaQueryComponent";
+import GeolocationComponent from "./17-useGeolocation/GeolocationComponent";
 import TimeoutComponent from "./2-useTimeout/TimeoutComponent";
 import DebounceComponent from "./3-useDebounce/DebounceComponent";
 import UpdateEffectComponent from "./4-useUpdateEffect/UpdateEffectComponent";
@@ -31,7 +32,9 @@ function App() {
   // return <EventListenerComponent />;
   // return <OnScreenComponent />;
   // return <WindowSizeComponent />;
-  return <MediaQueryComponent />;
+  // return <MediaQueryComponent />;
+  // return <GeolocationComponent />
+  return <StateWithHistoryComponent />;
 }
 
 export default App;
