@@ -10,6 +10,7 @@ import MediaQueryComponent from "./16-useMediaQuery/MediaQueryComponent";
 import GeolocationComponent from "./17-useGeolocation/GeolocationComponent";
 import SizeComponent from "./19-useSize/SizeComponent";
 import TimeoutComponent from "./2-useTimeout/TimeoutComponent";
+import EffectOnceComponent from "./20-useEffectOnce/EffectOnceComponent";
 import DebounceComponent from "./3-useDebounce/DebounceComponent";
 import UpdateEffectComponent from "./4-useUpdateEffect/UpdateEffectComponent";
 import ArrayComponent from "./5-useArray/ArrayComponent";
@@ -36,7 +37,8 @@ function App() {
   // return <MediaQueryComponent />;
   // return <GeolocationComponent />
   // return <StateWithHistoryComponent />;
-  return <SizeComponent />;
+  // return <SizeComponent />;
+  return <EffectOnceComponent />;
 }
 
 export default App;
