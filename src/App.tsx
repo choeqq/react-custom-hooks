@@ -11,6 +11,7 @@ import GeolocationComponent from "./17-useGeolocation/GeolocationComponent";
 import SizeComponent from "./19-useSize/SizeComponent";
 import TimeoutComponent from "./2-useTimeout/TimeoutComponent";
 import EffectOnceComponent from "./20-useEffectOnce/EffectOnceComponent";
+import ClickOutsideComponent from "./21-useClickOutside/ClickOutsideComponent";
 import DebounceComponent from "./3-useDebounce/DebounceComponent";
 import UpdateEffectComponent from "./4-useUpdateEffect/UpdateEffectComponent";
 import ArrayComponent from "./5-useArray/ArrayComponent";
@@ -38,7 +39,8 @@ function App() {
   // return <GeolocationComponent />
   // return <StateWithHistoryComponent />;
   // return <SizeComponent />;
-  return <EffectOnceComponent />;
+  // return <EffectOnceComponent />;
+  return <ClickOutsideComponent />;
 }
 
 export default App;
