@@ -12,6 +12,7 @@ import SizeComponent from "./19-useSize/SizeComponent";
 import TimeoutComponent from "./2-useTimeout/TimeoutComponent";
 import EffectOnceComponent from "./20-useEffectOnce/EffectOnceComponent";
 import ClickOutsideComponent from "./21-useClickOutside/ClickOutsideComponent";
+import DarkModeComponent from "./22-useDarkMode/DarkModeComponent";
 import DebounceComponent from "./3-useDebounce/DebounceComponent";
 import UpdateEffectComponent from "./4-useUpdateEffect/UpdateEffectComponent";
 import ArrayComponent from "./5-useArray/ArrayComponent";
@@ -40,7 +41,8 @@ function App() {
   // return <StateWithHistoryComponent />;
   // return <SizeComponent />;
   // return <EffectOnceComponent />;
-  return <ClickOutsideComponent />;
+  // return <ClickOutsideComponent />;
+  return <DarkModeComponent />;
 }
 
 export default App;
