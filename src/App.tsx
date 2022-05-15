@@ -17,6 +17,7 @@ import CopyToClipboardComponent from "./23-useCopyToClipboard/CopyToClipboardCom
 import CookieComponent from "./24-useCookie/CookieComponent";
 import TranslationComponent from "./25-useTranslation/TranslationComponent";
 import OnlineStatusComponent from "./26-useOnlineStatus/OnlineStatusComponent";
+import RenderCountComponent from "./27-useRenderCount/RenderCountComponent";
 import DebounceComponent from "./3-useDebounce/DebounceComponent";
 import UpdateEffectComponent from "./4-useUpdateEffect/UpdateEffectComponent";
 import ArrayComponent from "./5-useArray/ArrayComponent";
@@ -50,7 +51,8 @@ function App() {
   // return <CopyToClipboardComponent />;
   // return <CookieComponent />;
   // return <TranslationComponent />;
-  return <OnlineStatusComponent />;
+  // return <OnlineStatusComponent />;
+  return <RenderCountComponent />;
 }
 
 export default App;
