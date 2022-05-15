@@ -14,6 +14,7 @@ import EffectOnceComponent from "./20-useEffectOnce/EffectOnceComponent";
 import ClickOutsideComponent from "./21-useClickOutside/ClickOutsideComponent";
 import DarkModeComponent from "./22-useDarkMode/DarkModeComponent";
 import CopyToClipboardComponent from "./23-useCopyToClipboard/CopyToClipboardComponent";
+import CookieComponent from "./24-useCookie/CookieComponent";
 import DebounceComponent from "./3-useDebounce/DebounceComponent";
 import UpdateEffectComponent from "./4-useUpdateEffect/UpdateEffectComponent";
 import ArrayComponent from "./5-useArray/ArrayComponent";
@@ -44,7 +45,8 @@ function App() {
   // return <EffectOnceComponent />;
   // return <ClickOutsideComponent />;
   // return <DarkModeComponent />;
-  return <CopyToClipboardComponent />;
+  // return <CopyToClipboardComponent />;
+  return <CookieComponent />;
 }
 
 export default App;
