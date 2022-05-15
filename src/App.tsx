@@ -16,6 +16,7 @@ import DarkModeComponent from "./22-useDarkMode/DarkModeComponent";
 import CopyToClipboardComponent from "./23-useCopyToClipboard/CopyToClipboardComponent";
 import CookieComponent from "./24-useCookie/CookieComponent";
 import TranslationComponent from "./25-useTranslation/TranslationComponent";
+import OnlineStatusComponent from "./26-useOnlineStatus/OnlineStatusComponent";
 import DebounceComponent from "./3-useDebounce/DebounceComponent";
 import UpdateEffectComponent from "./4-useUpdateEffect/UpdateEffectComponent";
 import ArrayComponent from "./5-useArray/ArrayComponent";
@@ -48,7 +49,8 @@ function App() {
   // return <DarkModeComponent />;
   // return <CopyToClipboardComponent />;
   // return <CookieComponent />;
-  return <TranslationComponent />;
+  // return <TranslationComponent />;
+  return <OnlineStatusComponent />;
 }
 
 export default App;
