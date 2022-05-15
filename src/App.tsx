@@ -18,6 +18,7 @@ import CookieComponent from "./24-useCookie/CookieComponent";
 import TranslationComponent from "./25-useTranslation/TranslationComponent";
 import OnlineStatusComponent from "./26-useOnlineStatus/OnlineStatusComponent";
 import RenderCountComponent from "./27-useRenderCount/RenderCountComponent";
+import DebugInformationComponent from "./28-useDebugInformation/DebugInformationComponent";
 import DebounceComponent from "./3-useDebounce/DebounceComponent";
 import UpdateEffectComponent from "./4-useUpdateEffect/UpdateEffectComponent";
 import ArrayComponent from "./5-useArray/ArrayComponent";
@@ -52,7 +53,8 @@ function App() {
   // return <CookieComponent />;
   // return <TranslationComponent />;
   // return <OnlineStatusComponent />;
-  return <RenderCountComponent />;
+  // return <RenderCountComponent />;
+  return <DebugInformationComponent />;
 }
 
 export default App;
