@@ -21,6 +21,7 @@ import RenderCountComponent from "./27-useRenderCount/RenderCountComponent";
 import DebugInformationComponent from "./28-useDebugInformation/DebugInformationComponent";
 import HoverComponent from "./29-useHover/HoverComponent";
 import DebounceComponent from "./3-useDebounce/DebounceComponent";
+import LongPressComponent from "./30-useLongPress/LongPressComponent";
 import UpdateEffectComponent from "./4-useUpdateEffect/UpdateEffectComponent";
 import ArrayComponent from "./5-useArray/ArrayComponent";
 import StateWithHistoryComponent from "./7-useStateWithHistory/StateWithHistory";
@@ -56,7 +57,8 @@ function App() {
   // return <OnlineStatusComponent />;
   // return <RenderCountComponent />;
   // return <DebugInformationComponent />;
-  return <HoverComponent />;
+  // return <HoverComponent />;
+  return <LongPressComponent />;
 }
 
 export default App;
